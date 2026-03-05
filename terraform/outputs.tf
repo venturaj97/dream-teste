@@ -12,13 +12,9 @@ output "job_lambda_name" {
 
 output "event_rule_name" {
   value = aws_cloudwatch_event_rule.daily_10am.name
-<<<<<<< HEAD
-=======
 }
-
 output "frontend_url" {
 
   value = aws_s3_bucket_website_configuration.frontend_site.website_endpoint
 
->>>>>>> 45028bb (s3 e job + front)
 }
